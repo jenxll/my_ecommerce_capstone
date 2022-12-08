@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.navbar-container {
+  height: 100px;
+  padding: 0;
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  z-index: 4;
+}
+img {
+  height: 240px;
+  width: 240px;
+}

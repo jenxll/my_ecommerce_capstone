@@ -1,24 +1,23 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import "../style/style.scss";
-import Main from "../pages/Main";
-import Product from "../pages/Product";
-import Cart from "../pages/Cart.js";
+import "../style/index.scss";
+import Home from "./pages/Home";
+import Products from "./pages/Products";
+import Cart from "./pages/Cart";
+import Navbar from "./navigation/Navbar";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
-      <Router>
+      <BrowserRouter>
+        <Navbar />
+
         <Switch>
-          <Route />
+          <Route exact path="/" component={Home} />
+          <Route path="/products" component={Products} />
+          <Route path="/cart" component={Cart} />
         </Switch>
-      </Router>
-      <Main></Main>
-      <Product></Product>
-      <Cart></Cart>
+      </BrowserRouter>
     </div>
   );
 }
-
-export default App;
