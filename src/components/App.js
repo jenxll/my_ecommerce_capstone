@@ -5,6 +5,9 @@ import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Cart from "./pages/Cart";
 import Navbar from "./navigation/Navbar";
+import Icons from "./helpers/Icons";
+import "../style/main.scss";
+Icons();
 
 export default function App() {
   return (
