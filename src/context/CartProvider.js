@@ -9,7 +9,7 @@ export default function CartProvider({ children }) {
     const inCart = cart.find((item) => item.id === product.id);
 
     if (inCart) {
-      window.prompt("Item already added!");
+      window.prompt("Item already added! click ok to continue:");
     } else {
       setCart((c) => [...c, product]);
     }

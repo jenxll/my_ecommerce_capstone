@@ -6,13 +6,13 @@
   background-position: center;
   padding: 90px 40px;
   text-align: center;
-}
 
-.hero-container .hero-header h1 {
-  font-weight: 700;
-  font-size: 2.875rem;
-  text-shadow: 2px 2px 8px rgb(51 50 95 /40%);
-  color: limegreen;
-  margin: 0 111px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  .hero-header h1 {
+    font-weight: 700;
+    font-size: 2.875rem;
+    text-shadow: 2px 2px 8px rgb(51 50 95 /40%);
+    color: limegreen;
+    margin: 0 111px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
 }

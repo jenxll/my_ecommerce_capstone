@@ -14,7 +14,10 @@ export default function Navbar() {
         <button>About</button>
       </NavLink>
       <NavLink to="/products">
-        <button>Store</button>
+        <button>
+          <FontAwesomeIcon icon="horse" />
+          Store
+        </button>
       </NavLink>
       <NavLink to="/cart">
         <button>

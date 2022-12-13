@@ -39,10 +39,10 @@ export default function Products(props) {
             <option value="men's clothing">Men's Clothing</option>
             <option value="women's clothing">Women's Clothing</option>
           </select>
+        </div>
 
-          <div className="store-clear-cart">
-            <button onClick={clearCart}>Clear Cart</button>
-          </div>
+        <div className="store-clear-cart">
+          <button onClick={clearCart}>Clear Cart</button>
         </div>
       </div>
       {renderProducts()}
