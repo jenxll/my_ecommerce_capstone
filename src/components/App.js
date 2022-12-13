@@ -9,6 +9,7 @@ import icons from "./helpers/icons";
 import About from "./pages/About";
 import Footer from "./pages/Footer";
 import CartProvider from "../context/CartProvider";
+
 import "../style/main.scss";
 
 icons();

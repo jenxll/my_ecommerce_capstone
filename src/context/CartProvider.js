@@ -6,7 +6,13 @@ export default function CartProvider({ children }) {
   const [cart, setCart] = useState([]);
 
   function addProduct(product) {
-    setCart((c) => [...c, product]);
+    const inCart = cart.find((item) => item.id === product.id);
+
+    if (inCart) {
+      window.prompt("Item already added!");
+    } else {
+      setCart((c) => [...c, product]);
+    }
   }
 
   function clearCart() {

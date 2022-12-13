@@ -1,5 +1,6 @@
+/// consider searching your cart for the item first, and only allowing them to add it if it doesn't exist
+
 export default function ProductItem(props) {
-  console.log(props);
   return (
     <div className="product-card-container">
       <h5>{props.item.title}</h5>

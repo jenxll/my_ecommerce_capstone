@@ -1,0 +1,33 @@
+$background-color: turquoise;
+$font-type: Helvetica, sans-serif;
+.navbar-container {
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  background-color: $background-color;
+  padding: 0 15px;
+
+  button {
+    font-family: $font-type;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: #29adcc;
+    padding: 9px 25px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    cursor: pointer;
+    transition: 0.3 ease-in-out all;
+  }
+}
+.footer {
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  background-color: $background-color;
+  padding: 0 15px;
+}
