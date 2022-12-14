@@ -11,11 +11,14 @@ export default function Navbar() {
         </button>
       </NavLink>
       <NavLink to="/about">
-        <button>About</button>
+        <button>
+          <FontAwesomeIcon icon="horse" />
+          About
+        </button>
       </NavLink>
       <NavLink to="/products">
         <button>
-          <FontAwesomeIcon icon="horse" />
+          <FontAwesomeIcon icon="shopping-bag" />
           Store
         </button>
       </NavLink>

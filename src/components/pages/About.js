@@ -5,12 +5,11 @@ export default function About() {
       <div className="about-content">
         <h3>My Capstone</h3>
         <p>
-          eCommerce Capstone is the being of practice to design and build an
-          eCommerce website. With buttons to direct you to Homepage, Store, and
-          Cart. Funtionality to add and remove items from you shopping cart.
-          Able to put products into categories. Special thanks to Fake Store Api
-          for allowing new students to be able to practice making eCommerce
-          websites.
+          This site is a training to set up an eCommerce site. You are able to
+          put products into categories. Funtionality to add and remove items
+          from you shopping cart. Special thanks to MohammadRez Keikavousi for
+          creating Fake Store Api. Allowing new students to be able to practice
+          making eCommerce websites.
         </p>
         <h3>The Knowledge I have gain.</h3>
         <p>

@@ -5,7 +5,7 @@ export default function Home() {
       <div className="hero-header">
         <h1>
           <FontAwesomeIcon icon="shopping-bag" />
-          Spend Your $Dollars Here!
+          Spend Your $ Dollars Here!
           <FontAwesomeIcon icon="shopping-bag" />
         </h1>
       </div>
